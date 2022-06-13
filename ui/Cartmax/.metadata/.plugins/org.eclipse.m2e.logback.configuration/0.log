@@ -1,0 +1,30 @@
+2022-06-06 16:13:46,525 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2022-06-06 16:17:04,738 [Worker-9: Creating maven-archetype-webapp] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Collecting project info '/pom.xml' C:\jbs02\Cartmax\Cartmaxproject\pom.xml
+2022-06-06 16:17:08,003 [Worker-9: Creating maven-archetype-webapp] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.Cartmaxproject:Cartmaxproject:0.0.1-SNAPSHOT @ C:\jbs02\Cartmax\Cartmaxproject\pom.xml.
+2022-06-06 16:17:10,221 [Worker-9: Creating maven-archetype-webapp] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Cartmaxproject/src/main/java
+2022-06-06 16:17:10,223 [Worker-9: Creating maven-archetype-webapp] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Cartmaxproject/src/test/java
+2022-06-06 16:17:12,716 [Worker-9: Creating maven-archetype-webapp] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 7 sec
+2022-06-06 16:17:13,384 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-06 16:17:13,385 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\jbs02\Cartmax\Cartmaxproject\src\main\resources
+2022-06-06 16:17:13,389 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-06 16:17:13,390 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\jbs02\Cartmax\Cartmaxproject\src\test\resources
+2022-06-06 16:17:26,421 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-06 16:17:26,422 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\jbs02\Cartmax\Cartmaxproject\src\main\resources
+2022-06-06 16:17:26,424 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-06 16:17:26,424 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\jbs02\Cartmax\Cartmaxproject\src\test\resources
+2022-06-06 16:37:57,616 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-06 16:37:57,616 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\jbs02\Cartmax\Cartmaxproject\src\main\resources
+2022-06-06 16:37:57,618 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-06 16:37:57,619 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\jbs02\Cartmax\Cartmaxproject\src\test\resources
+2022-06-06 16:38:07,158 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-06 16:38:07,159 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\jbs02\Cartmax\Cartmaxproject\src\main\resources
+2022-06-06 16:38:07,161 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-06 16:38:07,161 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\jbs02\Cartmax\Cartmaxproject\src\test\resources
+2022-06-06 16:42:37,003 [Worker-21: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.Cartmaxproject:Cartmaxproject:0.0.1-SNAPSHOT @ C:\jbs02\Cartmax\Cartmaxproject\pom.xml.
+2022-06-06 16:42:38,355 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-06 16:42:38,355 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\jbs02\Cartmax\Cartmaxproject\src\main\resources
+2022-06-06 16:42:38,358 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-06 16:42:38,359 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\jbs02\Cartmax\Cartmaxproject\src\test\resources
+2022-06-06 16:42:38,360 [Worker-21: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of Cartmaxproject
+2022-06-06 16:42:38,362 [Worker-21: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for Cartmaxproject
+2022-06-06 16:42:38,370 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
