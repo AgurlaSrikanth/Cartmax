@@ -19,7 +19,7 @@ public class CartMaxServiceImpl implements CartMaxService {
 
 		if ((dbUser != null)) {
 			if (dbUser.getPassword().equals(user.getPassword())) {
-				return "Logeed in successfully";
+				return "Logged in successfully";
 			} else {
 				return "Incorrect password";
 			}

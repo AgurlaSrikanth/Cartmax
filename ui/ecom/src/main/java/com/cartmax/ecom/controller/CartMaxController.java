@@ -17,8 +17,8 @@ public class CartMaxController {
 
 	@GetMapping({ "/", "/welcome" })
 	public String welcome() {
-		System.out.println("welcome");
-		return "login.html";
+		System.out.println("welcome home");
+		return "login";
 	}
 	
 	@GetMapping("/login")
