@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<head>
+    <title>Contact Form</title>
+</head>
+<body>
+    <center>  <h2 style="font-size:60px; color:red;">Contact Us</h2> </center>
+    <form id="fcf-form-id" class="fcf-form-class" method="post" action="contact-form-process.php">
+            <h1 label for="Name" class="fcf-label">Your name </h1>
+            <div class="fcf-input-group">
+                <input type="text" id="Name" name="Name" class="fcf-form-control" required>
+            </div>
+        <div class="fcf-form-group">
+            <h2 label for="Email" class="fcf-label">Your email address</h2>
+            <div class="fcf-input-group">
+                <input type="email" id="Email" name="Email" class="fcf-form-control" required>
+            </div>
+        <div class="fcf-form-group">
+            <h2 label for="Message" class="fcf-label">Your message</h2>
+            <div class="fcf-input-group">
+                <textarea id="Message" name="Message" class="fcf-form-control" rows="6" maxlength="3000" required></textarea>
+            </div>
+        </div>
+        <div class="fcf-form-group">
+            <button type="submit" id="fcf-button" class="fcf-btn fcf-btn-primary fcf-btn-lg fcf-btn-block">Send</button>
+        </div>
+</body>
+</html>
