@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 my third commit
+=======
+my second commit
+>>>>>>> 8979aa0e873b2f7a2700ec6310ad3235c5f2dd79
