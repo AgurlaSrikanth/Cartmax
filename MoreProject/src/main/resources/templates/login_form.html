@@ -13,8 +13,7 @@
         <div>
             <h1>User Login</h1>
         </div>
-        <form th:action="@{/process_login}" th:object="${user}"
-            method="post" style="max-width: 600px; margin: 0 auto;">
+        <form method="post" methodAttribute="user" controller="More" action="login" style="max-width: 600px; margin: 0 auto;">
         <div class="m-3">
             <div class="form-group row">
                 <label class="col-4 col-form-label">E-mail: </label>
@@ -32,7 +31,7 @@
             </div>
              
             <div>
-                <button type="submit" class="btn btn-primary">Login</button>
+                <input type="submit" class="btn btn-primary" value="Login"/>
             </div>
         </div>
         </form>
