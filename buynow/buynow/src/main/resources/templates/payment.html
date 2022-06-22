@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Payment Form</title>
-    <link rel="stylesheet" href="paymentstyle.css">
+    <link rel="stylesheet" th:href="@{css/paymentstyle.css}">
     <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
 </head>
@@ -64,14 +64,14 @@ alert("order successfully placed");
                       </select>
                 </div>
                 <div class="cards">
-                    <img src="visa.png" alt="">
-                    <img src="mastercard.png" alt="">
+                    <img src="images/visa.png" alt="">
+                    <img src="images/mastercard.png" alt="">
                 </div>
             </div>  
         </div>
         <p id="demo"></p>
         <!-- <button class="btn" onclick="myFunction()">Confirm</button> -->
-        <input type="button"class="btn" onclick="location.href='order.html'" value="Confirm">
+        <input type="button"class="btn" onclick="location.href='/order'" value="Confirm">
     </div>
 </body>
 </html>

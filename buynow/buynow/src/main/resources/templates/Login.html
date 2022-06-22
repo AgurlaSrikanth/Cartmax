@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html lang="en">
+<!-- <html lang="en"> -->
+<html xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,12 +10,15 @@
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
 
     
-    <link rel="stylesheet" th:href="@{/style.css}">
+    <link rel="stylesheet" th:href="@{css/style.css}">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
      <title>Cartmax</title>
 </head>
-<body>
+
+<body class="wrapperdemo">
+<!-- <img src="images/istock3.jpeg" alt="hello"> -->
+
     <nav class="navbar navbar-expand-lg bg-light" style="width:100%; height:60px;">
         <div class="container-fluid" style="font-weight: 900;">
           <a class="navbar-brand" href="#">Cartmax</a>
@@ -55,13 +59,16 @@
                            </div>
         
                            <div class="input-field button">
-                               <input type="button" onclick="location.href='Categories.html'" value="Login Now">
+                               <!-- <input type="button" onclick="location.href=<a th:href="@{/categories}"CATEGORIES</a>" value="Login Now"> -->
+                               <a th:href="@{/categories}">Login Now</a>
                            </div>
                        </form>
         
                        <div class="login-signup">
                            <span class="text">Not a member?
-                               <a href="#" class="text signup-link">Signup now</a>
+                                <!-- <a href="#" class="text signup-link" input type="button" onclick="location.href='Registration.html'">Signup now</a> -->
+                                 <a th:href="@{/register}">Signup Now</a>
+                                 
                            </span>
                        </div>
                    </div>
@@ -99,7 +106,7 @@
                            </div>
         
                            <div class="input-field button">
-                               <input type="button"href="#" class="text login-link" value="Register Now">
+                               <a th:href="@{/Login}">Register Now</a>>
                            </div>
                        </form>
         

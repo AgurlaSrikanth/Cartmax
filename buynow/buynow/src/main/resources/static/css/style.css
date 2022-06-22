@@ -3,8 +3,12 @@
 
 body{
     display: flex;
-    background-image:url('istock3.jpg');
+     /* background-image:url('istock3.jpg'); */ 
     background-repeat: no-repeat;
+}
+.wrapperdemo{
+	background-image:url('images/istock3.jpg') repeat; 
+	min-height:100%;
 }
 .container{
     position: relative;
@@ -19,7 +23,7 @@ body{
 .container .forms{
     display: flex;
     align-items: center;
-    height: 440px;
+    height: 550px;
     width: 200%;
     transition: height 0.2s ease;
 }

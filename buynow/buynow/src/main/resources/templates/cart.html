@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cart</title>
     <!-- <link rel="stylesheet" href="cartstyle.css"> -->
-    <link rel="stylesheet" href="cartstyle.css">
+    <link rel="stylesheet" th:href="@{css/cartstyle.css}">
     
 
 </head>
@@ -36,7 +36,7 @@
         </tr>
         <tr>
             <td><div class="cart-info">
-                <img src="product-1.jpg">
+                <img src="images/product-1.jpg">
                 <div>
                     <p>
                       Red Printed Tshirt 
@@ -52,7 +52,7 @@
         </tr>
         <tr>
             <td><div class="cart-info">
-                <img src="product-2.jpg">
+                <img src="images/product-2.jpg">
                 <div>
                     <p>
                       Shoes
@@ -67,7 +67,7 @@
         </tr>
         <tr>
             <td><div class="cart-info">
-                <img src="product-3.jpg">
+                <img src="images/product-3.jpg">
                 <div>
                     <p>
                       Track
@@ -97,7 +97,7 @@
             </tr>
         </table>
     </div>
-    <input type="button" onclick="location.href='delivery.html'" value="Place order">
+    <input type="button" onclick="location.href='/delivery'" value="Place order">
 </div>
 </body>
 </html>
