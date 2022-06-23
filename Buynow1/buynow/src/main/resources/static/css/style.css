@@ -6,10 +6,7 @@ body{
      /* background-image:url('istock3.jpg'); */ 
     background-repeat: no-repeat;
 }
-.wrapperdemo{
-	background-image:url('images/istock3.jpg') repeat; 
-	min-height:100%;
-}
+
 .container{
     position: relative;
     
