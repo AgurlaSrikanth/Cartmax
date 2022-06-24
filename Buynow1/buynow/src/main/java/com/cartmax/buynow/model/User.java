@@ -9,7 +9,7 @@ import javax.persistence.Table;
 
 import javax.persistence.Entity;
 @Entity
-@Table(name = "user")
+@Table(name = "user2")
 
 public class User {
 
@@ -25,6 +25,22 @@ public class User {
 
 	@Column(nullable = false, length = 30, unique=true)
 	private String email;
+	
+
+	public User(int uid, String name, String password, String email) {
+		super();
+		this.uid = uid;
+		this.name = name;
+		this.password = password;
+		this.email = email;
+	}
+	
+
+	public User() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
 
 	public int getUid() {
 		return uid;

@@ -10,11 +10,13 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.servlet.ModelAndView;
 
+import com.cartmax.buynow.model.User;
+import com.cartmax.buynow.repository.UserRepository;
 import com.cartmax.buynow.service.MoreService;
 
 @Controller
 @CrossOrigin(origins = "*", allowedHeaders = "*")
-public class CartmaxController {
+public class cartmaxcontroller {
 
 	@Autowired
 	MoreService moreService;
@@ -137,10 +139,28 @@ public class CartmaxController {
 		return "products";
 	}
 
+//	@PostMapping("/register")
+//	public String register() {
+//		// register logic
+//		return "register";
+//	}
+	/*
+	 * @GetMapping("/register") public String register() { // register logic return
+	 * "register"; }
+	 */
+
+	/*
+	 * @GetMapping("/register") public String register(Model model) { // register
+	 * logic model.addAttribute("user",new User()); return "register"; }
+	 * 
+	 * @PostMapping("/registered") public String registered(User user) {
+	 * 
+	 * return "registered"; }
+	 */
 	@RequestMapping("/register")
-	public String register() {
-		// register logic
-		return "register";
+		public String register() {
+			// register logic
+			return "register";
 	}
 
 	@RequestMapping("/login")
