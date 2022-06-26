@@ -36,7 +36,10 @@ public class MoreServiceImpl implements MoreService {
 			moreUserRepository.save(user);
 		} else
 			return "user exist";
-		return user.getName() + "  successfully registered";
+	return user.getName() + "  successfully registered";
 	}
+	
 
+	
 }
+

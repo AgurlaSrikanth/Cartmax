@@ -21,5 +21,6 @@ public class BuyApplication {
         User first = new User(1,"Aayush","12345","aak@gmail.com");
         // ob.save() method
         ob.save(first);
+        System.out.println(first);
     }
 }

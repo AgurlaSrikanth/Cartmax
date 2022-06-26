@@ -11,7 +11,7 @@ import com.cartmax.buynow.model.User;
 
 @Repository
 public interface UserRepository extends JpaRepository<User, Integer> {
-//	@Query("SELECT u FROM user2 u WHERE u.email = ?1")
+	//@Query("SELECT u FROM user2 u WHERE u.email = ?1")
 	User findByEmail(String email);
 	/*
 	 * S save(User user);
